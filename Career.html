@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>JStudio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            font-family: 'Times New Roman';
+            box-sizing: border-box;
+            line-height: 30px;
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Jonel's Portfolio Logo" >
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="Project.html">Project</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a style="text-decoration: underline;" href="Career.html">Career</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="career-section">
+        <h1>Career</h1>
+        <p>Browse the skills I offer, explore open job positions, or connect with companies I've worked with or am open to work with.</p>
+    
+        <div class="search-bar">
+          <input type="text" placeholder="Search by job title, skill, or company(worked from)...">
+          <button>Search</button>
+        </div>
+    
+        <div class="filters">
+            <label for="skills">Skill Category:</label>
+            <select id="skills">
+              <option>All Skills</option>
+              <option>Front-End</option>
+              <option>Back-End</option>
+              <option>Tools & Platforms</option>
+            </select>
+
+            <label for="Job">Job Category:</label>
+            <select id="Job">
+              <option>All Jobs</option>
+              <option>Front-End</option>
+              <option>Back-End</option>
+              <option>Technical Support</option>
+              <option>Software Engineer</option>
+            </select>
+        </div>
+    
+        <div class="tabs">
+          <a href="#skill"><button>Skills Offered</button></a>
+          <a href="#job"><button>Job Offers</button></a>
+          <a href="#company"><button>Companies</button></a>
+        </div>
+        <hr>
+    </section>
+
+    <section id="skill">
+        <h2>🛠️Skills Offered (IT)</h2>
+        <ol>
+            <li>Web Development
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Vue.js, Angular</li>
+                <li>Node.js, Express</li>
+            </ul>
+            </li>
+            <li>Backend Development
+            <ul>
+                <li>Python (Django, Flask)</li>
+                <li>PHP, Laravel</li>
+                <li>Ruby on Rails</li>
+                <li>.NET, C#</li>
+            </ul>
+            </li>
+            <li>Database Management
+            <ul>
+                <li>MySQL, PostgreSQL</li>
+                <li>MongoDB</li>
+                <li>Oracle DB</li>
+                <li>Firebase</li>
+            </ul>
+            </li>
+            <li>Cloud Computing
+            <ul>
+                <li>AWS, GCP, Azure</li>
+                <li>Docker, Kubernetes</li>
+            </ul>
+            </li>
+            <li>DevOps
+            <ul>
+                <li>CI/CD (GitHub Actions, Jenkins)</li>
+                <li>Linux Server Management</li>
+                <li>Terraform</li>
+            </ul>
+            </li>
+            <li>Cybersecurity
+            <ul>
+                <li>Ethical Hacking</li>
+                <li>Network Security</li>
+                <li>Penetration Testing</li>
+            </ul>
+            </li>
+            <li>Mobile Development
+            <ul>
+                <li>Android (Java/Kotlin)</li>
+                <li>iOS (Swift)</li>
+                <li>Flutter, React Native</li>
+            </ul>
+            </li>
+        </ol>
+        <hr>
+    </section>
+
+    <section id="job"> 
+        <h2>💼 Job Offers</h2>
+        <ol>
+            <li>Frontend Developer (Freelance)
+            <ul>
+                <li>Technologies: React, Tailwind CSS</li>
+                <li>Duration: 3 months</li>
+                <li>Location: Remote</li>
+            </ul>
+            </li>
+            <li>Backend Developer (Contract)
+            <ul>
+                <li>Technologies: Node.js, MongoDB</li>
+                <li>Duration: 6 months</li>
+                <li>Location: Hybrid (Manila)</li>
+            </ul>
+            </li>
+            <li>WordPress Site Builder
+            <ul>
+                <li>Skills: Elementor, SEO</li>
+                <li>Timeline: 1 month</li>
+                <li>Location: Remote</li>
+            </ul>
+            </li>
+            <li>Mobile App Developer
+            <ul>
+                <li>Technologies: Flutter</li>
+                <li>Project: Health tracker app</li>
+                <li>Duration: 4 months</li>
+            </ul>
+            </li>
+            <li>Technical Support Specialist
+            <ul>
+                <li>Skills: Customer Support, Basic Networking</li>
+                <li>Schedule: Night Shift</li>
+                <li>Location: Remote or On-site</li>
+            </ul>
+            </li>
+        </ol>
+        <hr>
+    </section>
+
+    <section id="company">
+        <h2>🏢Companies I've Worked With / Provided IT Services To</h2>
+        <ol>
+          <li>
+            <strong>Google</strong><br>
+            <em>Role/Service:</em> Web Development<br>
+            <p>A global tech leader known for its search engine, Android OS, and cloud services. Provided front-end optimization and deployed scalable solutions using Google Cloud.</p>
+          </li>
+          <li>
+            <strong>Microsoft</strong><br>
+            <em>Role/Service:</em> System Administration & Front-end Developer<br>
+            <p>A multinational corporation specializing in software, cloud, and enterprise services. Supported a cloud migration project using Microsoft Azure and improved internal security configurations.</p>
+          </li>
+          <li>
+            <strong>Amazon (AWS)</strong><br>
+            <em>Role/Service:</em> Cloud Infrastructure Setup<br>
+            <p>World's largest e-commerce and cloud services provider. Assisted in deploying serverless functions and setting up scalable architecture using AWS Lambda, S3, and EC2.</p>
+          </li>
+          <li>
+            <strong>IBM</strong><br>
+            <em>Role/Service:</em> Backend Development & API Integration<br>
+            <p>A global leader in AI, software, and consulting. Built and maintained backend systems for a logistics project using Node.js and integrated IBM Watson for smart analytics.</p>
+          </li>
+          <li>
+            <strong>Accenture</strong><br>
+            <em>Role/Service:</em> IT Consulting & Technical Support<br>
+            <p>A global professional services company specializing in IT and business strategy. Contributed to client-side tech support, software troubleshooting, and infrastructure auditing.</p>
+          </li>
+        </ol>
+        <hr>
+      </section>
+
+      <div class="hire">
+        <a href="Contact.html"><button>Hire Me</button></a>
+      </div>
+</body>
+</html>

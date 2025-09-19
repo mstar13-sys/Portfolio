@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <title>JStudio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Cambria, sans-serif;
+    }
+    body{
+      background-image: url('img/bg2.pdf.PNG');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .main {
+      height: 100vh;
+      position: relative;
+      color: #00124a;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 50px;
+      font-size: 18px;
+      font-weight: 500;
+      background-color: transparent;
+    }
+
+    .navbar .logo {
+      font-weight: bold;
+      font-size: 22px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="main">
+    <nav class="navbar">
+      <div class="logo">J'Studio</div>
+      <button popovertarget="tutor">How to access?</button>
+    </nav>
+    
+        <div class="pop" popover id="tutor">
+            <video width="720" height="auto" controls>
+            <source src="img/vid.mp4">
+            </video>
+        </div> 
+        <div class="main-content">
+        <h2>Connecting talent with Opportunity</h2>
+        <h1>J'STUDIO</h1>
+        <img src="" alt="" width="50%">
+            <div class="buttons">
+                <a href="login.html"><button>Log in</button></a>
+                <a href="sign.html"><button>Sign up</button></a>
+            </div>
+        </div>
+
+  </div>
+</body>
+</html>
